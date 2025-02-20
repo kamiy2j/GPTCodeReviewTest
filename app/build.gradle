@@ -5,12 +5,13 @@ plugins {
 
 android {
 	namespace 'com.kamran.gptcodereviewtest'
-	compileSdk 33
+	compileSdk 34
 
 	defaultConfig {
 		applicationId "com.kamran.gptcodereviewtest"
 		minSdk 28
-		targetSdk 33
+		targetSdk 34
+		buildToolsVersion "34.0.0"
 		versionCode 1
 		versionName "1.0"
 
