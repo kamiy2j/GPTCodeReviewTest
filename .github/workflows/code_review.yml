@@ -17,5 +17,8 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.TOKEN_ACCESS }}
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           MODEL: gpt-4o
-          PROMPT: "Provide a **concise** code review focusing only on critical issues, improvements, and best practices. Keep responses **brief and to the point** (within 3-5 sentences per issue). Avoid excessive explanations."
+          PROMPT: "Provide a **concise** and **actionable** code review. Focus only on **major issues, improvements, and best practices**. 
+                             When suggesting improvements, **include direct code snippets** (only if necessary). 
+                             Keep responses **brief** and **to the point** (no more than 3-5 sentences per issue). 
+                             Use bullet points for clarity."
 
